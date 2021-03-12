@@ -100,10 +100,19 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c; /*here is what it was:  */
+
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #354d07 15%, #295714 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #354d07 15%, #295714 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #354d07 15%, #295714 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #354d07 15%, #295714 85%);
+
+
+/*        
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1957,7 +1966,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+/* ER			background-color: #8cc9f0; */
+            background-color: #032402;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1967,7 +1977,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+                background-color: #032402;
+/*ER				background-color: #9acff2;  */
 			}
 
 			input[type="submit"].primary:active,
@@ -3410,8 +3421,8 @@ input, select, textarea {
 			#main input[type="reset"].primary,
 			#main input[type="button"].primary,
 			#main button.primary,
-			#main .button.primary {
-				background-color: #8cc9f0;
+			#main .button.primary {  /*Button ER*/
+				background-color: #349431;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3421,7 +3432,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #3dad39; /*Hover button ER*/
 				}
 
 				#main input[type="submit"].primary:active,
