@@ -99,15 +99,19 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c; /*here is what it was:  */
+		background-color: #295714; /*here is what it was: #935d8c */
 
+        background-image: url("images/small_ER_felt_background.jpg");
+
+
+/*GREEN GRADIENT
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #354d07 15%, #295714 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #354d07 15%, #295714 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #354d07 15%, #295714 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #354d07 15%, #295714 85%);
+*/
 
-
-/*        
+/* PURPLE GRADIENT       
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -129,7 +133,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #295714;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
